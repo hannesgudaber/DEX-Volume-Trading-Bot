@@ -1,0 +1,21 @@
+# Core dependencies
+setuptools>=69.0.3
+pip>=24.0
+wheel>=0.42.0
+web3==6.11.4
+eth-account==0.8.0
+python-dotenv>=1.0.1
+
+# Additional required packages
+requests>=2.31.0
+cryptography>=42.0.5
+eth-utils>=2.3.1
+hexbytes>=0.3.1
+eth-typing>=3.5.2
+eth-hash>=0.5.2
+
+# Compatibility packages
+importlib-metadata>=7.0.1
+importlib-resources>=6.1.1
+eth-abi>=4.0.0
+eth-keys>=0.4.0
