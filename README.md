@@ -1,100 +1,146 @@
 # 🚀 DEX Volume Bot Pro – Educational Edition 📈
 
 **Simulate Realistic Market Behavior on Any DEX – For Training and Educational Use Only**  
-📊 _Build smart charts, test liquidity scenarios, and explore automated strategies in a safe, non-financial environment._
+📊 _Create professional-looking charts, practice market behavior modeling, and explore automated strategies in a safe test environment._
 
 ---
 
-![Main Control Panel](./cli.jpg)  
-*A powerful, keyboard-driven control panel. Clean. Fast. Efficient.*
+![Pump Mode Preview](./PUMp.jpg)  
+*Example of 📈 Pump Mode generating a healthy, organic growth curve.*
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
 🔹 **5 Human-Inspired Trading Profiles**  
-Choose from 5 behavioral presets that simulate real user activity:  
+Create behavior-rich simulations using built-in profiles:  
 👤 Frequent | ⏰ Regular | 🛡️ Cautious | 🎯 Opportunistic | 🎲 Sporadic
 
-🔹 **Three Trading Modes**  
-- 🟢 **PUMP Mode** – Simulate steady, organic buy pressure  
-- 🔴 **DUMP Mode** – Test how DEXs react to realistic sell behavior  
-- ⚖️ **NORMAL Mode** – Balanced buy/sell activity with human-like randomness
+🔹 **Advanced Multi-Mode Trading**  
+- 🟢 **PUMP Mode:** Simulates steady buying activity  
+- 🔴 **DUMP Mode:** Simulates selling patterns in a controlled environment  
+- ⚖️ **NORMAL Mode:** Mixes realistic buys and sells based on selected behavior  
+> ✅ All modes are built for educational use, allowing you to test DEX reactions and visualize chart behavior.
 
-> ✅ All modes are designed for educational and simulation purposes only.
+🔹 **Fully Configurable Pools**  
+💧 Connect to **any EVM-compatible liquidity pool**, including custom/private networks.  
+Tokens and routers are auto-detected for a hassle-free setup.
 
-🔹 **Cross-Chain Support**  
-Connect to any **EVM-compatible chain**: Ethereum, BSC, Arbitrum, Polygon, Avalanche, Optimism, even custom/private chains.
-
-🔹 **Custom Pool Support**  
-Paste any LP or token address – token detection, WETH wrapping, and pair info handled automatically.
-
-🔹 **Scheduled Volume Simulation**  
-Use the built-in calculator to define exact volume goals across hours or days.
+🔹 **Precise Volume Control**  
+📅 Spread simulated trading volume across timeframes—from minutes to days.  
+🧮 Utilize the integrated trade volume calculator to set precise trade frequency and intensity.
 
 🔹 **Unlimited Scalability**  
-Run 100+ wallets in parallel with thread-based execution – hardware is the only limit.
+🧵 Thread-based parallel execution allows up to 100+ wallets trading simultaneously – fully automated.  
+💼 Ideal for educational testing of multi-agent behavior.
+
+🔹 **Cross-Chain Ready**  
+✅ Supports Ethereum, BSC, Polygon, Avalanche, Arbitrum, Optimism, and more.  
+🧪 Works with testnets & private chains alike.
 
 ---
 
-![Wallet Funding Preview](./faucet.jpg)  
-*Smart faucet: Send native tokens to dozens of wallets in one go.*
+## ⚙️ Professional Tools
+
+🧠 **Smart Faucet Distribution**  
+Send ETH or native tokens to all training wallets with one click.
+
+🔄 **Position Management**  
+- 🔓 One-click WETH unwrap.  
+- 🔁 Recovery function: sends all remaining balance back to the master wallet.
+
+📊 **Live Analytics Dashboard**  
+- Real-time wallet activity monitoring.  
+- Pool volume metrics and gas cost tracking.
+
+⚙️ **Custom Trading Parameters**  
+Set slippage, gas strategy, randomness, trade size variance, and more to simulate complex trader behavior.
 
 ---
 
-## ⚙️ Pro Tools & Controls
-
-🧠 **Faucet Tool** – Bulk-send ETH or any native token  
-🔄 **Recovery Module** – Sweep all remaining balances back to your main wallet  
-🔓 **WETH Unwrap** – Instantly unwrap WETH from all trading wallets  
-📊 **Live Monitoring** – Track trade activity, volume, gas spent, and more  
-⚙️ **Custom Settings** – Fine-tune gas, slippage, trade size, and timing
+![Live Trading Simulation](./trade.jpg)  
+*Simulated active trading over time, illustrating natural movement and balance.*
 
 ---
 
-![Pool Selection Preview](./show pools.jpg)  
-*Interactive pool selection: view tokens, liquidity, and router info.*
+## 💻 Easy to Use – Cross-Platform Support
+
+✅ **Optimized for Windows** – Start instantly with a `.bat` file; no manual terminal input required.  
+🐧 **Full CLI Compatibility with Linux** – Run in any shell or server-based environment.  
+📁 Minimal setup – simply configure, execute, and observe.
+
+![CLI Control Panel](./cli.jpg)  
+*A powerful, keyboard-driven control panel. Clean. Fast. Efficient.*
+
+![Wallet Funding Process](./faucet.jpg)  
+*Smart faucet tool in action – funding dozens of wallets instantly.*
+
+![Pool Selection View](./show pools.jpg)  
+*Select your trading pool – view token pairing, reserves, and LP status at a glance.*
 
 ---
 
-## 💻 Easy to Run – Cross-Platform
+## 🧪 Educational Use Cases
 
-🪟 **Windows Ready** – Launch instantly via `.bat` file, no CLI skills needed  
-🐧 **Linux Compatible** – Full support for CLI-based execution on Linux/Ubuntu servers  
-⚙️ Designed to run on both personal desktops and cloud-based environments
+- 📚 Learn how DEX trading works under pressure.  
+- 🧠 Simulate token behavior for pre-launch testing.  
+- 🔄 Test strategies for liquidity management.  
+- 📈 Visualize volume effects on price and charting.  
+- 👥 Train teams or DAOs on automated trading models.
 
 ---
 
-## 📦 Requirements
+## 🛠️ Requirements & Installation
 
-The bot uses modern Python modules to ensure reliability and performance.  
-Before you start, make sure you have Python 3.10+ and install the dependencies:
+This project requires **Python 3.10 or later**. All necessary modules are listed in the [requirements.txt](./requirements.txt) file. If you are unable to install these modules, you should not use this bot.
 
-📄 **See:** [`requirements.txt`](./requirements.txt)
+### Installing Dependencies via pip
+
+Open your terminal and run the following command from the repository root:
 
 ```bash
 pip install -r requirements.txt
-⚠️ Important: If you're not able to install these dependencies, this tool is not for you.
-This software is intended for advanced users with basic Python and system setup knowledge.
+Dependencies include (but are not limited to):
 
-🧪 Use Cases (for Educational Simulation)
-🧠 Learn how volume affects chart movement
+setuptools>=69.0.3
 
-🧪 Test token behavior pre-launch
+pip>=24.0
 
-📈 Simulate healthy or stressful market conditions
+wheel>=0.42.0
 
-🧰 Build and evaluate automation strategies
+web3==6.11.4
 
-👥 Train devs, teams, and communities on volume dynamics
+eth-account==0.8.0
 
-🛡️ Legal Disclaimer
-This software is provided strictly for educational and testing purposes.
-We do not support or promote illegal, malicious, or manipulative use.
-Always comply with local laws and platform regulations. Use responsibly.
+python-dotenv>=1.0.1
 
-📬 Contact & Access
-💬 Telegram: @tradingboteducational
-🛠️ Setup support, live walkthroughs, and testnet guidance available.
+requests>=2.31.0
 
-⚠️ Learn responsibly. Simulate smart. Stay ethical.
+cryptography>=42.0.5
+
+eth-utils>=2.3.1
+
+hexbytes>=0.3.1
+
+eth-typing>=3.5.2
+
+eth-hash>=0.5.2
+
+importlib-metadata>=7.0.1
+
+importlib-resources>=6.1.1
+
+eth-abi>=4.0.0
+
+eth-keys>=0.4.0
+
+🛡️ Disclaimer
+📚 This bot is provided strictly for educational and simulation purposes.
+It is designed to help developers and blockchain enthusiasts understand market behavior, test algorithmic strategies, and visualize token trading impact in a controlled, non-financial environment.
+
+We do not encourage or endorse any form of misuse. Always respect local laws and platform guidelines.
+
+📬 Contact
+💬 Telegram Support & Inquiries: @tradingboteducational
+
+⚠️ For educational use only. Always simulate responsibly.
