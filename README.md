@@ -1,117 +1,100 @@
 # 🚀 DEX Volume Bot Pro – Educational Edition 📈
 
-**Simulate Realistic Market Activity on Any DEX – For Training and Educational Use Only**  
-📊 _Create professional-looking charts, practice market behavior modeling, and explore algorithmic strategies in a safe test environment._
+**Simulate Realistic Market Behavior on Any DEX – For Training and Educational Use Only**  
+📊 _Build smart charts, test liquidity scenarios, and explore automated strategies in a safe, non-financial environment._
 
 ---
 
-![Pump Mode Preview](./PUMp.jpg)
-*Example of 📈 Pump Mode generating a healthy, organic growth curve.*
+![Main Control Panel](./cli.jpg)  
+*A powerful, keyboard-driven control panel. Clean. Fast. Efficient.*
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 🔹 **5 Human-Inspired Trading Profiles**  
-Create behavior-rich simulations using built-in profiles:  
+Choose from 5 behavioral presets that simulate real user activity:  
 👤 Frequent | ⏰ Regular | 🛡️ Cautious | 🎯 Opportunistic | 🎲 Sporadic
 
-🔹 **Advanced Multi-Mode Trading**  
-- 🟢 **PUMP Mode:** Simulates steady buying activity  
-- 🔴 **DUMP Mode:** Simulates selling patterns  
-- ⚖️ **NORMAL Mode:** Mixes realistic buys and sells based on selected behavior
+🔹 **Three Trading Modes**  
+- 🟢 **PUMP Mode** – Simulate steady, organic buy pressure  
+- 🔴 **DUMP Mode** – Test how DEXs react to realistic sell behavior  
+- ⚖️ **NORMAL Mode** – Balanced buy/sell activity with human-like randomness
 
-🔹 **Fully Configurable Pools**  
-💧 Connect to **any EVM-compatible liquidity pool**, including custom/private networks. Tokens and routers are auto-detected.
+> ✅ All modes are designed for educational and simulation purposes only.
 
-🔹 **Precise Volume Control**  
-📅 Spread simulated trading volume **across timeframes**, from minutes to days  
-🧮 Use the built-in calculator to set trade frequency and intensity
+🔹 **Cross-Chain Support**  
+Connect to any **EVM-compatible chain**: Ethereum, BSC, Arbitrum, Polygon, Avalanche, Optimism, even custom/private chains.
+
+🔹 **Custom Pool Support**  
+Paste any LP or token address – token detection, WETH wrapping, and pair info handled automatically.
+
+🔹 **Scheduled Volume Simulation**  
+Use the built-in calculator to define exact volume goals across hours or days.
 
 🔹 **Unlimited Scalability**  
-🧵 Thread-based parallel execution allows **up to 100+ wallets** trading simultaneously – fully automated  
-💼 Ideal for educational testing of **multi-agent behavior**
-
-🔹 **Cross-Chain Ready**  
-✅ Supports **Ethereum, BSC, Polygon, Avalanche, Arbitrum, Optimism**, and more  
-🧪 Works with testnets & private chains
+Run 100+ wallets in parallel with thread-based execution – hardware is the only limit.
 
 ---
 
-## ⚙️ Professional Tools
-
-🧠 **Smart Faucet Distribution**  
-Send ETH or native tokens to all training wallets with one click
-
-🔄 **Position Management**  
-- 🔓 One-click unwrap of WETH  
-- 🔁 Recovery function: sends all remaining balance back to master wallet
-
-📊 **Live Analytics Dashboard**  
-- Realtime wallet activity  
-- Pool volume metrics  
-- Gas cost tracking
-
-⚙️ **Custom Trading Parameters**  
-Set slippage, gas strategy, randomness, trade size variance and more to simulate complex trader behavior
+![Wallet Funding Preview](./faucet.jpg)  
+*Smart faucet: Send native tokens to dozens of wallets in one go.*
 
 ---
 
-![Live Trading Simulation](./trade.jpg)
-*Simulated active trading over time, illustrating natural movement and balance.*
+## ⚙️ Pro Tools & Controls
+
+🧠 **Faucet Tool** – Bulk-send ETH or any native token  
+🔄 **Recovery Module** – Sweep all remaining balances back to your main wallet  
+🔓 **WETH Unwrap** – Instantly unwrap WETH from all trading wallets  
+📊 **Live Monitoring** – Track trade activity, volume, gas spent, and more  
+⚙️ **Custom Settings** – Fine-tune gas, slippage, trade size, and timing
 
 ---
 
-## 🛡️ Disclaimer
-
-📚 This bot is provided **strictly for educational and simulation purposes**.  
-It is designed to help developers and blockchain enthusiasts understand market behavior, test algorithmic strategies, and visualize token trading impact in a **controlled, non-financial environment**.
-
-We do **not encourage** or endorse any form of misuse. Always respect local laws and platform guidelines.
+![Pool Selection Preview](./show pools.jpg)  
+*Interactive pool selection: view tokens, liquidity, and router info.*
 
 ---
 
-## 📬 Contact
+## 💻 Easy to Run – Cross-Platform
 
-💬 Telegram Support & Inquiries: [@tradingboteducational](https://t.me/tradingboteducational)
+🪟 **Windows Ready** – Launch instantly via `.bat` file, no CLI skills needed  
+🐧 **Linux Compatible** – Full support for CLI-based execution on Linux/Ubuntu servers  
+⚙️ Designed to run on both personal desktops and cloud-based environments
 
 ---
 
-> ⚠️ For educational use only. Always simulate responsibly.
+## 📦 Requirements
 
+The bot uses modern Python modules to ensure reliability and performance.  
+Before you start, make sure you have Python 3.10+ and install the dependencies:
 
-#DEX
+📄 **See:** [`requirements.txt`](./requirements.txt)
 
-#TradingBot
+```bash
+pip install -r requirements.txt
+⚠️ Important: If you're not able to install these dependencies, this tool is not for you.
+This software is intended for advanced users with basic Python and system setup knowledge.
 
-#BlockchainSimulation
+🧪 Use Cases (for Educational Simulation)
+🧠 Learn how volume affects chart movement
 
-#EducationalTools
+🧪 Test token behavior pre-launch
 
-#CryptoTrading
+📈 Simulate healthy or stressful market conditions
 
-#MarketSimulation
+🧰 Build and evaluate automation strategies
 
-#EVM
+👥 Train devs, teams, and communities on volume dynamics
 
-#MultiChain
+🛡️ Legal Disclaimer
+This software is provided strictly for educational and testing purposes.
+We do not support or promote illegal, malicious, or manipulative use.
+Always comply with local laws and platform regulations. Use responsibly.
 
-#Ethereum
+📬 Contact & Access
+💬 Telegram: @tradingboteducational
+🛠️ Setup support, live walkthroughs, and testnet guidance available.
 
-#CryptoBot
-
-#AutomatedTrading
-
-#TokenTrading
-
-#LiquidityPools
-
-#AlgorithmicTrading
-
-#CryptoDev
-
-#Testnet
-
-#SmartContracts
-
-#Simulations
+⚠️ Learn responsibly. Simulate smart. Stay ethical.
