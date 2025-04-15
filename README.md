@@ -94,6 +94,17 @@ Set slippage, gas strategy, randomness, trade size variance, and more to simulat
 
 This project requires **Python 3.10 or later**. All necessary modules are listed in the [requirements.txt](./requirements.txt) file. If you are unable to install these modules, you should not use this bot.
 
+🛡️ Disclaimer
+📚 This bot is provided strictly for educational and simulation purposes.
+It is designed to help developers and blockchain enthusiasts understand market behavior, test algorithmic strategies, and visualize token trading impact in a controlled, non-financial environment.
+
+We do not encourage or endorse any form of misuse. Always respect local laws and platform guidelines.
+
+📬 Contact
+💬 Telegram Support & Inquiries: @tradingboteducational
+
+⚠️ For educational use only. Always simulate responsibly.
+
 ### Installing Dependencies via pip
 
 Open your terminal and run the following command from the repository root:
@@ -134,13 +145,4 @@ eth-abi>=4.0.0
 
 eth-keys>=0.4.0
 
-🛡️ Disclaimer
-📚 This bot is provided strictly for educational and simulation purposes.
-It is designed to help developers and blockchain enthusiasts understand market behavior, test algorithmic strategies, and visualize token trading impact in a controlled, non-financial environment.
 
-We do not encourage or endorse any form of misuse. Always respect local laws and platform guidelines.
-
-📬 Contact
-💬 Telegram Support & Inquiries: @tradingboteducational
-
-⚠️ For educational use only. Always simulate responsibly.
